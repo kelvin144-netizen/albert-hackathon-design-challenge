@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8eae2;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #07301e;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #07301e;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #07301e;
+    font-weight: bold;
+}
+
+.sign-in {
+    background-color: #2bb90a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    color: #07301e;
+    font-size: 36px;
+}
+
+.cta-buttons button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #2bb90a;
+    color: white;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid #07301e;
+    color: #07301e;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.awards {
+    text-align: center;
+    background-color: #07301e;
+    padding: 30px;
+    color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.logos img {
+    margin: 10px;
+    max-width: 100px;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.feature-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.feature-text {
+    max-width: 50%;
+}
+
+.feature-items h3 {
+    color: #07301e;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #07301e;
+    color: white;
+}
